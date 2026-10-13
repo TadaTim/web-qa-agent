@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "jsdom": "^25.0.1",
+    "playwright": "^1.57.0"
+  },
+  "description": "Verifiable computer-use QA agent: explores a web app, then compiles the exploration into a deterministic, replayable regression test that CI can re-run with no AI.",
+  "name": "web-qa-agent",
+  "private": true,
+  "scripts": {
+    "app": "node app/server.mjs",
+    "compile": "node src/cli.mjs compile",
+    "eval": "node src/eval/eval.mjs",
+    "explore": "node src/cli.mjs explore",
+    "replay": "node src/cli.mjs replay",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}

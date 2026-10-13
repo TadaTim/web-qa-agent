@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Northwind Supply — Sample Shop</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="shell-outer"><div class="shell-inner">
+  <header class="top-bar">
+    <a class="logo-text" href="#/products">Northwind Supply</a>
+    <nav class="primary-menu">
+      <a href="#/products" data-testid="nav-shop">Shop</a>
+      <a href="#/promos" data-testid="nav-promos">Promotions</a>
+      <a href="#/cart" data-testid="nav-cart">Cart <span class="count-pill" data-testid="cart-count">0</span></a>
+      <a href="#/account" data-testid="nav-account">Account</a>
+      <span class="session-box" data-testid="auth-area"></span>
+    </nav>
+  </header>
+  <main id="view" class="page-wrap"></main>
+  <footer class="page-foot">
+    <p>Demo storefront for automated QA. Partner store: <a href="https://example.com/partner" data-testid="partner-link">example.com</a></p>
+  </footer>
+  <script src="/app.js"></script>
+  </div></div>
+</body>
+</html>

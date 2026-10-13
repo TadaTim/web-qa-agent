@@ -1,0 +1,20 @@
+.sr-only-clip{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+body{font-family:system-ui,sans-serif;margin:0;color:#1c2733}
+.top-bar{display:flex;justify-content:space-between;align-items:center;padding:12px 20px;background:#14324a;color:#fff}
+.top-bar a{color:#fff;text-decoration:none;margin-right:14px}
+.logo-text{font-weight:700}
+.count-pill{background:#e8a33d;border-radius:9px;padding:0 7px;color:#14324a;font-weight:700}
+.page-wrap{padding:24px;max-width:860px;margin:0 auto}
+.items-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.item-tile{border:1px solid #cfd8e0;border-radius:8px;padding:14px}
+.item-tile h3{margin:0 0 6px}
+.cost-label{color:#46606f}
+button{background:#14608f;color:#fff;border:0;border-radius:6px;padding:9px 14px;cursor:pointer}
+button.btn-danger{background:#b3261e}
+input{display:block;width:100%;padding:9px;margin:6px 0 14px;border:1px solid #9fb2c1;border-radius:6px}
+.panel-card{max-width:420px}
+.alert-box{background:#fdeceb;border:1px solid #b3261e;color:#7a1710;border-radius:6px;padding:10px 12px;margin:10px 0}
+.fine-print{color:#5a6d7c;font-size:14px}
+.page-foot{padding:16px 20px;color:#5a6d7c;border-top:1px solid #e2e8ee}
+.line-row{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid #e2e8ee}
+.offer-banner{background:#fdf3d8;border:1px solid #e8a33d;border-radius:8px;padding:14px}
