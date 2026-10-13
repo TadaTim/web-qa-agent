@@ -1,0 +1,5 @@
+node_modules/
+traces/*.json
+!traces/.gitkeep
+screenshots/
+.eval-tmp/
